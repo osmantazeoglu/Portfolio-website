@@ -19,7 +19,7 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
-      title: "Amazon Clone Page with React",
+      title: "Amazon Clone (React)",
       description:
         "Developed a React-based Amazon page clone with component-driven architecture, implementing API communication and a dynamic shopping cart feature.",
       technologies: ["React", "JavaSript", "CSS"],
@@ -29,7 +29,7 @@ export default function Portfolio() {
     },
     {
       id: 2,
-      title: "Amazon Page Clone",
+      title: "Amazon Clone",
       description:
         "Developed a front-end clone of the Amazon homepage using HTML, CSS, and JavaScript, implementing component-based logic for scalability and maintainability.",
       technologies: ["JavaScript", "HTML", "CSS"],
@@ -49,7 +49,7 @@ export default function Portfolio() {
     },
     {
       id: 4,
-      title: "To-Do List with React",
+      title: "To-Do List (React)",
       description:
         "A to-do list application built with React, JavaScript, and CSS, featuring task creation and management functionalities.",
       technologies: ["React", "JavaSript", "CSS"],
