@@ -26,7 +26,6 @@ export default function Portfolio() {
       image: AmazonwithReact,
       github:
         "https://github.com/osmantazeoglu/My-Project/tree/master/Amazon%20Clone%20Page%20with%20React",
-      demo: "#",
     },
     {
       id: 2,
@@ -37,7 +36,6 @@ export default function Portfolio() {
       image: AmazonwithJs,
       github:
         "https://github.com/osmantazeoglu/My-Project/tree/master/Amazon%20Page%20Clone",
-      demo: "#",
     },
     {
       id: 3,
@@ -48,7 +46,6 @@ export default function Portfolio() {
       image: TodoListwithJs,
       github:
         "https://github.com/osmantazeoglu/My-Project/tree/master/Todo%20List",
-      demo: "#",
     },
     {
       id: 4,
@@ -59,7 +56,6 @@ export default function Portfolio() {
       image: TodoListwithReact,
       github:
         "https://github.com/osmantazeoglu/My-Project/tree/master/To-do%20List%20with%20React",
-      demo: "#",
     },
     {
       id: 5,
@@ -70,7 +66,6 @@ export default function Portfolio() {
       image: Calculator,
       github:
         "https://github.com/osmantazeoglu/My-Project/tree/master/Calculator",
-      demo: "#",
     },
     {
       id: 6,
@@ -81,7 +76,6 @@ export default function Portfolio() {
       image: RecipeFinder,
       github:
         "https://github.com/osmantazeoglu/My-Project/tree/master/Recipe%20Finder",
-      demo: "#",
     },
   ];
 
@@ -209,13 +203,6 @@ export default function Portfolio() {
                   >
                     <Github size={18} />
                     <span className="text-sm">Code</span>
-                  </a>
-                  <a
-                    href={project.demo}
-                    className="flex items-center gap-2 text-slate-300 hover:text-white transition-colors"
-                  >
-                    <ExternalLink size={18} />
-                    <span className="text-sm">Demo</span>
                   </a>
                 </div>
               </div>
