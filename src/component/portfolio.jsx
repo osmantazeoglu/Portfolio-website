@@ -1,4 +1,10 @@
 import { Github, Linkedin, Mail, Code, ExternalLink } from "lucide-react";
+import AmazonwithReact from "../assets/Amazon Clone Page with React.png";
+import AmazonwithJs from "../assets/Amazon Clone Page with Js.png";
+import TodoListwithJs from "../assets/To-do List.png";
+import TodoListwithReact from "../assets/To-do List with React.png";
+import Calculator from "../assets/Calculator.png";
+import RecipeFinder from "../assets/Recipe Finder.png";
 
 export default function Portfolio() {
   const skills = [
@@ -6,8 +12,6 @@ export default function Portfolio() {
     "React",
     "HTML",
     "CSS",
-    "Node.js",
-    "Tailwind CSS",
     "Git",
     "Responsive Design",
   ];
@@ -15,57 +19,57 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "Amazon Clone Page with React",
       description:
-        "A full-stack e-commerce application with shopping cart, payment integration, and user authentication.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      image:
-        "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop",
-      github: "https://github.com/osmantazeoglu",
+        "Developed a React-based Amazon page clone with component-driven architecture, implementing API communication and a dynamic shopping cart feature.",
+      technologies: ["React", "JavaSript", "CSS"],
+      image: AmazonwithReact,
+      github:
+        "https://github.com/osmantazeoglu/My-Project/tree/master/Amazon%20Clone%20Page%20with%20React",
       demo: "#",
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "Amazon Page Clone",
       description:
-        "Collaborative task management tool with real-time updates, drag-and-drop functionality, and team features.",
-      technologies: ["React", "Firebase", "Tailwind CSS"],
-      image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop",
-      github: "https://github.com/osmantazeoglu",
+        "Developed a front-end clone of the Amazon homepage using HTML, CSS, and JavaScript, implementing component-based logic for scalability and maintainability.",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      image: AmazonwithJs,
+      github:
+        "https://github.com/osmantazeoglu/My-Project/tree/master/Amazon%20Page%20Clone",
       demo: "#",
     },
     {
       id: 3,
-      title: "Weather Dashboard",
+      title: "To-Do List",
       description:
-        "Beautiful weather application showing current conditions, forecasts, and interactive maps using external APIs.",
-      technologies: ["React", "OpenWeather API", "Chart.js"],
-      image:
-        "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&h=500&fit=crop",
-      github: "https://github.com/osmantazeoglu",
+        "Developed a to-do list application with HTML, CSS, and JavaScript, implementing task editing, image management, and demo features to showcase functionality.",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      image: TodoListwithJs,
+      github:
+        "https://github.com/osmantazeoglu/My-Project/tree/master/Todo%20List",
       demo: "#",
     },
     {
       id: 4,
-      title: "Portfolio CMS",
+      title: "To-Do List with React",
       description:
-        "Content management system for portfolios with customizable themes and real-time preview.",
-      technologies: ["React", "Node.js", "Express", "PostgreSQL"],
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
-      github: "https://github.com/osmantazeoglu",
+        "A to-do list application built with React, JavaScript, and CSS, featuring task creation and management functionalities.",
+      technologies: ["React", "JavaSript", "CSS"],
+      image: TodoListwithReact,
+      github:
+        "https://github.com/osmantazeoglu/My-Project/tree/master/To-do%20List%20with%20React",
       demo: "#",
     },
     {
       id: 5,
-      title: "Social Media Dashboard",
+      title: "Calculator",
       description:
-        "Analytics dashboard for social media metrics with data visualization and export functionality.",
-      technologies: ["React", "D3.js", "REST API"],
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop",
-      github: "https://github.com/osmantazeoglu",
+        "A calculator application built with HTML, CSS, and JavaScript, featuring a clean interface and functional design.",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      image: Calculator,
+      github:
+        "https://github.com/osmantazeoglu/My-Project/tree/master/Calculator",
       demo: "#",
     },
     {
@@ -73,21 +77,10 @@ export default function Portfolio() {
       title: "Recipe Finder",
       description:
         "Interactive recipe search application with filters, favorites, and meal planning features.",
-      technologies: ["React", "Spoonacular API", "LocalStorage"],
-      image:
-        "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&h=500&fit=crop",
-      github: "https://github.com/osmantazeoglu",
-      demo: "#",
-    },
-    {
-      id: 7,
-      title: "Fitness Tracker",
-      description:
-        "Personal fitness tracking app with workout logging, progress charts, and goal setting.",
-      technologies: ["React", "Chart.js", "CSS Animations"],
-      image:
-        "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&h=500&fit=crop",
-      github: "https://github.com/osmantazeoglu",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      image: RecipeFinder,
+      github:
+        "https://github.com/osmantazeoglu/My-Project/tree/master/Recipe%20Finder",
       demo: "#",
     },
   ];
@@ -174,7 +167,7 @@ export default function Portfolio() {
       {/* Projects Section */}
       <section className="max-w-6xl mx-auto px-6 py-16">
         <h2 className="text-4xl font-bold text-white mb-12 text-center">
-          Featured Projects
+          Projects
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
