@@ -98,7 +98,7 @@ export default function Portfolio() {
                 Osman Tazeoglu
               </h1>
               <p className="text-2xl text-blue-300 mb-6">
-                Junior Software Developer
+                Junior Full Stack Developer
               </p>
               <p className="text-lg text-slate-300 mb-8 max-w-2xl">
                 I'm a Junior Software Developer with a strong focus on building
