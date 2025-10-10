@@ -108,10 +108,10 @@ export default function Portfolio() {
                 improving my skills to write better code and deliver
                 high-quality digital experiences.
               </p>
-              <div className="flex gap-4 justify-center md:justify-start">
+              <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                 <a
                   href="mailto:osmanntazeoglu@gmail.com"
-                  className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors"
+                  className="w-full sm:w-auto flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors"
                 >
                   <Mail size={20} />
                   Contact Me
@@ -120,7 +120,7 @@ export default function Portfolio() {
                   href="https://github.com/osmantazeoglu"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 bg-slate-700 hover:bg-slate-600 text-white px-6 py-3 rounded-lg transition-colors"
+                  className="w-full sm:w-auto flex items-center gap-2 bg-slate-700 hover:bg-slate-600 text-white px-6 py-3 rounded-lg transition-colors"
                 >
                   <Github size={20} />
                   GitHub
@@ -129,10 +129,9 @@ export default function Portfolio() {
                   href="https://linkedin.com/in/osmantazeoglu"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 bg-slate-700 hover:bg-slate-600 text-white px-6 py-3 rounded-lg transition-colors"
+                  className="w-full sm:w-auto flex items-center gap-2 bg-slate-700 hover:bg-slate-600 text-white px-6 py-3 rounded-lg transition-colors"
                 >
                   <Linkedin size={20} />
-                  LinkedIn
                 </a>
               </div>
             </div>
