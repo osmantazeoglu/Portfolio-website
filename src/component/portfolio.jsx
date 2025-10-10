@@ -132,6 +132,7 @@ export default function Portfolio() {
                   className="w-full sm:w-auto flex items-center gap-2 bg-slate-700 hover:bg-slate-600 text-white px-6 py-3 rounded-lg transition-colors"
                 >
                   <Linkedin size={20} />
+                  LinkedIn
                 </a>
               </div>
             </div>
