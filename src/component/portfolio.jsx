@@ -98,13 +98,13 @@ export default function Portfolio() {
                 Osman Tazeoglu
               </h1>
               <p className="text-2xl text-blue-300 mb-6">
-                Junior Full Stack Developer
+                Full Stack Developer
               </p>
               <p className="text-lg text-slate-300 mb-8 max-w-2xl">
-                I'm a Junior Full Stack Developer with a strong focus on
-                building clean, efficient, and user-centered web applications.
-                My main stack includes React, Node.js, and Tailwind CSS, which I
-                use to create responsive and modern interfaces. I'm constantly
+                I'm a Full Stack Developer with a strong focus on building
+                clean, efficient, and user-centered web applications. My main
+                stack includes React, Node.js, and Tailwind CSS, which I use to
+                create responsive and modern interfaces. I'm constantly
                 improving my skills to write better code and deliver
                 high-quality digital experiences.
               </p>
