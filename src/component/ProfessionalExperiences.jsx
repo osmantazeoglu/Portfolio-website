@@ -41,7 +41,7 @@ export default function ProfessionalExperiences() {
       location: "Istanbul, Turkey · Remote",
       description:
         "Built modern web applications including e-commerce platforms, admin panels, and real-time monitoring systems. Developed reusable frontend components and implemented clear state management patterns to ensure maintainable and scalable codebases. Worked on both frontend and backend development to deliver end-to-end solutions.",
-      skills: ["Frontend Architecture & Component Design", "React", "React Query", "State Management"],
+      skills: ["Frontend Architecture & Component Design", "React", "React Query"],
       logoColor: "from-red-500 to-red-600",
     },
   ];
