@@ -13,7 +13,7 @@ export default function ProfessionalExperiences() {
       location: "Mannheim, Germany · Remote",
       description:
         "Worked on developing and maintaining scalable frontend modules using React and TypeScript within a large monorepo environment. Contributed to shared frontend standards, including reusable React Query patterns and component libraries. Collaborated with cross-functional teams to deliver high-quality features while maintaining code quality and performance standards.",
-      skills: ["TypeScript", "React Query", "React", "Frontend Architecture", "Monorepo"],
+      skills: ["TypeScript", "React Query", "React", "Frontend Architecture", "REST API Integration"],
       logoColor: "from-green-500 to-green-600",
     },
     {
@@ -27,7 +27,7 @@ export default function ProfessionalExperiences() {
       location: "Kocaeli, Turkey · Remote",
       description:
         "Developed SEO-friendly and multilingual corporate websites with a strong focus on performance and usability. Built frontend and backend features for field management systems and internal dashboards using modern web technologies. Implemented responsive designs and optimized applications for better user experience.",
-      skills: ["React", "React Query", "Node.js", "Express.js", "SEO"],
+      skills: ["TypeScript", "React Query", "React", "Frontend Architecture", "REST API Integration", "SEO"],
       logoColor: "from-blue-500 to-blue-600",
     },
     {
@@ -41,7 +41,7 @@ export default function ProfessionalExperiences() {
       location: "Istanbul, Turkey · Remote",
       description:
         "Built modern web applications including e-commerce platforms, admin panels, and real-time monitoring systems. Developed reusable frontend components and implemented clear state management patterns to ensure maintainable and scalable codebases. Worked on both frontend and backend development to deliver end-to-end solutions.",
-      skills: ["Frontend Architecture & Component Design", "React", "State Management"],
+      skills: ["Frontend Architecture & Component Design", "React", "React Query", "State Management"],
       logoColor: "from-red-500 to-red-600",
     },
   ];
