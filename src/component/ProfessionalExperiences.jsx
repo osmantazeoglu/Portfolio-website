@@ -56,7 +56,7 @@ export default function ProfessionalExperiences() {
         {experiences.map((experience, index) => (
           <div
             key={experience.id}
-            className={`flex gap-6 pb-8 ${
+            className={`flex items-start gap-6 pb-8 ${
               index !== experiences.length - 1 ? "border-b border-slate-700" : ""
             }`}
           >
