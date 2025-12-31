@@ -101,12 +101,17 @@ export default function Portfolio() {
                 Full Stack Developer
               </p>
               <p className="text-lg text-slate-300 mb-8 max-w-2xl">
-                I'm a Full Stack Developer with a strong focus on building
-                clean, efficient, and user-centered web applications. My main
-                stack includes React, Node.js, and Tailwind CSS, which I use to
-                create responsive and modern interfaces. I'm constantly
-                improving my skills to write better code and deliver
-                high-quality digital experiences.
+                Full Stack / Frontend Developer with hands-on experience
+                building and maintaining modern, user-focused web applications
+                using React and TypeScript. I focus on clean component
+                structures, performance, and maintainable code, working
+                primarily on frontend-heavy features while being comfortable
+                across the full stack.
+                <br></br> 
+                I enjoy improving existing codebases,
+                collaborating with designers and backend engineers, and
+                delivering reliable solutions that balance technical quality
+                with real business needs.
               </p>
               <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                 <a
