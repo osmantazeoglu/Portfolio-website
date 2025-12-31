@@ -8,12 +8,16 @@ import RecipeFinder from "../assets/Recipe Finder.png";
 
 export default function Portfolio() {
   const skills = [
-    "JavaScript",
     "React",
-    "HTML",
-    "CSS",
-    "Git",
-    "Responsive Design",
+    "TypeScript",
+    "Frontend Architecture & Component Design",
+    "React Query (Data Fetching & Caching)",
+    "HTML5 & CSS3 (Responsive UI)",
+    "Material UI (MUI) & Styled Components",
+    "REST API Integration",
+    "Node.js & Express.js",
+    "State Management (Hooks, Context API)",
+    "Performance Optimization & Accessibility",
   ];
 
   const projects = [
@@ -107,7 +111,7 @@ export default function Portfolio() {
                 structures, performance, and maintainable code, working
                 primarily on frontend-heavy features while being comfortable
                 across the full stack.
-                <br></br> 
+                <br></br><br></br> 
                 I enjoy improving existing codebases,
                 collaborating with designers and backend engineers, and
                 delivering reliable solutions that balance technical quality
