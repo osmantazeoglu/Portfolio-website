@@ -52,11 +52,11 @@ export default function ProfessionalExperiences() {
         <Briefcase className="text-blue-400" size={32} />
         <h2 className="text-4xl font-bold text-white">Professional Experiences</h2>
       </div>
-      <div className="space-y-8">
+      <div className="space-y-8 w-full">
         {experiences.map((experience, index) => (
           <div
             key={experience.id}
-            className={`flex items-start gap-6 pb-8 ${
+            className={`flex items-start justify-start gap-6 pb-8 w-full ${
               index !== experiences.length - 1 ? "border-b border-slate-700" : ""
             }`}
           >
@@ -74,11 +74,11 @@ export default function ProfessionalExperiences() {
               </div>
             </div>
             {/* Experience Details */}
-            <div className="flex-1">
-              <h3 className="text-xl font-bold text-white mb-1">
+            <div className="flex-1 text-left">
+              <h3 className="text-xl font-bold text-white mb-1 text-left">
                 {experience.position}
               </h3>
-              <p className="text-lg text-blue-300 mb-2">{experience.company}</p>
+              <p className="text-lg text-blue-300 mb-2 text-left">{experience.company}</p>
               <div className="flex flex-wrap items-center gap-3 text-sm text-slate-400 mb-3">
                 <span>{experience.employmentType}</span>
                 <span>•</span>
